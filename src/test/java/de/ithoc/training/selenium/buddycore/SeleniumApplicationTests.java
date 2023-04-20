@@ -1,4 +1,4 @@
-package de.ithoc.training.selenium;
+package de.ithoc.training.selenium.buddycore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
