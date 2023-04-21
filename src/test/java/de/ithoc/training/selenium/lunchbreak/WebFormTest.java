@@ -31,9 +31,13 @@ public class WebFormTest {
         chromeDriver.quit();
     }
 
+//    @Test
+//    public void testWebFormPage() {
+//        // Navigate to this example website which is a form.
+//        chromeDriver.get("https://www.selenium.dev/selenium/web/web-form.html");
+//    }
     @Test
-    public void testWebFormPage() {
-        // Navigate to this example website which is a form.
-        chromeDriver.get("https://www.selenium.dev/selenium/web/web-form.html");
+    public void testFrontendReachable() {
+        chromeDriver.get("http://localhost:4200");
     }
 }
